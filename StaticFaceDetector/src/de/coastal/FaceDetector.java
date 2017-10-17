@@ -18,7 +18,7 @@ public class FaceDetector {
         System.out.println("Starting...");
  
         // Change this path as appropriate for your configuration.
-        CascadeClassifier faceDetector = new CascadeClassifier("/usr/local/Cellar/opencv/3.3.0_3/share/OpenCV/haarcascades/haarcascade_frontalface_alt.xml");
+        CascadeClassifier faceDetector = new CascadeClassifier("resource/haarcascades/haarcascade_frontalface_alt.xml");
  
         // Change this path as appropriate, pointing it to an image with at least a face...
         Mat image = 
